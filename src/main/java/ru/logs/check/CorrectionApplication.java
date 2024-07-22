@@ -1,4 +1,4 @@
-package ru.logs.entity.check;
+package ru.logs.check;
 
 import org.junit.jupiter.api.Order;
 import org.springframework.stereotype.Component;

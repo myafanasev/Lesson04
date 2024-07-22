@@ -1,4 +1,4 @@
-package ru.logs.entity.check;
+package ru.logs.check;
 
 
 import ru.logs.entity.Model;

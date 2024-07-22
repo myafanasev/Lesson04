@@ -2,7 +2,7 @@ package ru.logs.entity;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import ru.logs.entity.check.Checkable;
+import ru.logs.check.Checkable;
 
 import java.util.List;
 
