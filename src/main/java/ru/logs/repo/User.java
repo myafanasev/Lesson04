@@ -5,20 +5,20 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
-@Entity
-public class Users {
+@Entity(name = "users")
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
     String username;
     String fio;
 
-    public Users(String username, String fio) {
+    public User(String username, String fio) {
         this.username = username;
         this.fio = fio;
     }
 
-    public Users() {}
+    public User() {}
 
     public void setId(Long id) {
         this.id = id;

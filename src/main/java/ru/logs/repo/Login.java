@@ -4,8 +4,8 @@ import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
 
-@Entity
-public class Logins {
+@Entity(name = "logins")
+public class Login {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
@@ -15,9 +15,9 @@ public class Logins {
     Long userId;
     String application;
 
-    public Logins() {}
+    public Login() {}
 
-    public Logins(LocalDateTime accessDate, Long userId, String application) {
+    public Login(LocalDateTime accessDate, Long userId, String application) {
         this.accessDate = accessDate;
         this.userId = userId;
         this.application = application;
