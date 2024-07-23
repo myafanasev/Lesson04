@@ -16,18 +16,6 @@ public class Main {
         ApplicationContext ctx = SpringApplication.run(Main.class);
         TransformApplication transformApplication = ctx.getBean(TransformApplication.class);
         transformApplication.run();
-
-//        UserRepo ur = ctx.getBean(UserRepo.class);
-//        Users u = new Users( "ulus", "Улусов Егор Сергеевич");
-//        u = ur.save(u);
-//        ur.findAll().forEach(System.out::println);
-//
-//        LoginRepo lr = ctx.getBean(LoginRepo.class);
-//        lr.findAll().forEach(System.out::println);
-
-
-
-
     }
 
 }

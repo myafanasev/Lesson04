@@ -109,3 +109,7 @@ Model{username='evlamp', fio='Богатый Евлампий Игоревич',
 2024-07-23 17:52:57
 Список записей с некорректной датой: 
 Model{username='afanasev', fio='Афанасьев Михаил Юрьевич', accessDate='2020-20-18 09:59:00', application='ATM'}
+2024-07-23 17:57:35
+Список записей с некорректной датой: 
+Model{username='afanasev', fio='Афанасьев михаил юрьевич', accessDate='', application='mobile'}
+Model{username='evlamp', fio='Богатый Евлампий Игоревич', accessDate='2020-05-19 09:59', application='mobile'}

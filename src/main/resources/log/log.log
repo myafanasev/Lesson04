@@ -48,3 +48,13 @@
 Название операции: make
 Входные параметры: [[Model{username='afanasev', fio='Афанасьев Михаил Юрьевич', accessDate='2020-01-18 09:59:00', application='web'}, Model{username='afanasev', fio='Афанасьев Михаил Юрьевич', accessDate='2020-01-18 09:59:00', application='web'}, Model{username='afanasev', fio='Афанасьев Михаил Юрьевич', accessDate='2020-01-19 00:01:00', application='mobile'}, Model{username='uvarov', fio='Уваров Илья Константинович', accessDate='2023-10-20 15:01:03', application='other: atm'}]]
 Возвращаемое значение: null
+Дата и время начала выполнение операции:2024-07-23 17:57:35
+Название класса: ru.logs.check.CorrectionDate
+Название операции: make
+Входные параметры: [[Model{username='afanasev', fio='Афанасьев Михаил Юрьевич', accessDate='2024-05-15 23:59:59', application='web'}, Model{username='afanasev', fio='Афанасьев михаил юрьевич', accessDate='', application='mobile'}, Model{username='logov', fio='Логов Илья Валентинович', accessDate='2023-12-11 08:23:00', application='other: desktop'}, Model{username='afanasev', fio='афанасьев михаил юрьевич', accessDate='2020-01-18 09:59:00', application='mobile'}, Model{username='evlamp', fio='Богатый Евлампий Игоревич', accessDate='2020-05-19 09:59', application='mobile'}, Model{username='pusativ', fio='Позитивный Юрий ганиеевич', accessDate='2021-05-15 08:50:59', application='mobile'}, Model{username='logov', fio='логов Илья Валентинович', accessDate='2024-07-15 09:24:15', application='web'}, Model{username='afanasev', fio='Афанасьев михаил юрьевич', accessDate='2024-06-18 18:02:21', application='mobile'}, Model{username='farin', fio='фарин георгий григорьевич', accessDate='2023-05-20 06:00:20', application='other: ATM'}]]
+Возвращаемое значение: null
+Дата и время начала выполнение операции:2024-07-23 17:58:01
+Название класса: ru.logs.check.CorrectionDate
+Название операции: make
+Входные параметры: [[Model{username='afanasev', fio='Афанасьев Михаил Юрьевич', accessDate='2020-01-18 09:59:00', application='web'}, Model{username='afanasev', fio='Афанасьев Михаил Юрьевич', accessDate='2020-01-18 09:59:00', application='web'}, Model{username='afanasev', fio='Афанасьев Михаил Юрьевич', accessDate='2020-01-19 00:01:00', application='mobile'}, Model{username='uvarov', fio='Уваров Илья Константинович', accessDate='2023-10-20 15:01:03', application='other: atm'}]]
+Возвращаемое значение: null
