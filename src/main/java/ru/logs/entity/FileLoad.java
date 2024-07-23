@@ -2,6 +2,7 @@ package ru.logs.entity;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
+import ru.logs.log.LogTransformation;
 
 import java.io.File;
 import java.io.FileNotFoundException;

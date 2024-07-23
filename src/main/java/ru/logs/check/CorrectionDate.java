@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Order;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import ru.logs.entity.Model;
+import ru.logs.log.LogTransformation;
 
 import java.io.*;
 import java.time.LocalDateTime;
@@ -14,6 +15,7 @@ import java.util.List;
 
 @Component
 @Order(30)
+@LogTransformation
 public class CorrectionDate implements Checkable {
     @Value("${file.err}") // путь к файлу с ошибками по настройке в application.property
     String errFile;
