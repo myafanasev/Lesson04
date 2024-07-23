@@ -7,7 +7,7 @@ import ru.logs.entity.Model;
 import java.util.List;
 
 @Component
-@Order(10)
+@Order(10) // чтобы в списке проверки оказались в заданном порядке
 public class CorrectionFIO implements Checkable {   // исправляет ФИО так, чтобы каждый его компонент начинался с большой буквы
     @Override
     public void make(List<Model> listModel) {

@@ -3,6 +3,7 @@ package ru.logs.repo;
 import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
+import java.util.Objects;
 
 @Entity(name = "logins")
 public class Login {
@@ -47,5 +48,18 @@ public class Login {
                 ", userId=" + userId +
                 ", application='" + application + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) { //ID при сравнении не учитываем
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Login login = (Login) o;
+        return Objects.equals(accessDate, login.accessDate) && Objects.equals(userId, login.userId) && Objects.equals(application, login.application);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(accessDate, userId, application);
     }
 }

@@ -5,6 +5,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
+import java.util.Objects;
+
 @Entity(name = "users")
 public class User {
     @Id
@@ -39,5 +41,18 @@ public class User {
                 ", username='" + username + '\'' +
                 ", fio='" + fio + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {   // сравниваем только имя пользователя и ФИО
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return Objects.equals(username, user.username) && Objects.equals(fio, user.fio);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(username, fio);
     }
 }

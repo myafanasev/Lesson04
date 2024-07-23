@@ -1,10 +1,14 @@
 package ru.logs.entity;
 
+import java.time.LocalDateTime;
+
 public class Model {
     private String username;
     private String fio;
     private String accessDate;
     private String application;
+
+    private LocalDateTime accessDateFormat = null;
 
     public Model(String username, String fio, String accessDate, String application) {
         this.username = username;
@@ -29,6 +33,10 @@ public class Model {
         return application;
     }
 
+    public LocalDateTime getAccessDateFormat() {
+        return accessDateFormat;
+    }
+
     public void setUsername(String username) {
         this.username = username;
     }
@@ -43,6 +51,10 @@ public class Model {
 
     public void setApplication(String application) {
         this.application = application;
+    }
+
+    public void setAccessDateFormat(LocalDateTime accessDateFormat) {
+        this.accessDateFormat = accessDateFormat;
     }
 
     @Override
